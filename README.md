@@ -22,14 +22,14 @@ ContactList Application using MEAN (MongoDB, ExpressJS, AngularJS, NodeJS)
 
 <li><strong>brew install node</strong>
 
-Set path to /users/....../contactlist/
+<li>Set path to <strong>/users/....../contactlist/</strong>
 
-Intall these by typing in the terminal
+<li>Intall these by typing in the terminal
 
-<li><strong>npm init
-<li><strong>npm install express --save
-<li><strong>npm install mongoose cors body-parser --save
-<li><strong>sudo npm install -g --force nodemon
-<li><strong>nodemon
+<li>Initialize npm<strong>npm init</strong>
+<li>Install express<strong>npm install express --save</strong>
+<li>Install mongoose, cors, body-parser<strong>npm install mongoose cors body-parser --save</strong>
+<li>Install nodemon for continuous sync<strong>sudo npm install -g --force nodemon</strong>
+<li>Start the server<strong>nodemon</strong>
 
-<h3> You are good to go
+<h4> You are good to go
