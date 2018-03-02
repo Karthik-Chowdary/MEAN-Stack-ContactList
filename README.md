@@ -18,7 +18,7 @@ ContactList Application using MEAN (MongoDB, ExpressJS, AngularJS, NodeJS)
 <li>To exit the Mongo shell run <strong>quit()</strong>
 <li>To stop the Mongo daemon hit <strong>ctrl-c</strong>
   
-<h2>Install NodeJS
+<h2>Install NodeJS</h2>
 
 <li><strong>brew install node</strong>
 
