@@ -26,10 +26,10 @@ ContactList Application using MEAN (MongoDB, ExpressJS, AngularJS, NodeJS)
 
 <li>Intall these by typing in the terminal
 
-<li>Initialize npm<strong>npm init</strong>
-<li>Install express<strong>npm install express --save</strong>
-<li>Install mongoose, cors, body-parser<strong>npm install mongoose cors body-parser --save</strong>
-<li>Install nodemon for continuous sync<strong>sudo npm install -g --force nodemon</strong>
-<li>Start the server<strong>nodemon</strong>
+<li>Initialize npm<strong>  npm init</strong>
+<li>Install express<strong>  npm install express --save</strong>
+<li>Install mongoose, cors, body-parser<strong>  npm install mongoose cors body-parser --save</strong>
+<li>Install nodemon for continuous sync<strong>  sudo npm install -g --force nodemon</strong>
+<li>Start the server<strong>  nodemon</strong>
 
 <h4> You are good to go
