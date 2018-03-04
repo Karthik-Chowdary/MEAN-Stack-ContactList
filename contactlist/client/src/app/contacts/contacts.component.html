@@ -1,3 +1,66 @@
-<p>
-  contacts works!
-</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MEAN Stack ContactList</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/Karthik-Chowdary">Author</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/Karthik-Chowdary/MEAN-Stack-ContactList">About Project</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" placeholder="Search" type="text">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br>
+<br>
+<div class="container">
+    <title>ContactList</title>
+    <h2 class = "page-header">Add Contact</h2>
+    <form (submit)="addContact()">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" [(ngModel)]="first_name" name="first_name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" [(ngModel)]="last_name" name="last_name" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" [(ngModel)]="phone" name="phone" class="form-control" required>
+        </div>
+        <input type="submit" class="btn btn btn-success" value="Add Contact">
+    </form>
+</div>
+
+<hr>
+<div class="container">
+    <div *ngFor="let c of contacts">
+        <div class="col-md-3">
+            {{c.first_name}}
+        </div>
+        <div class="col-md-3">
+            {{c.last_name}}
+        </div>
+        <div class="col-md-3">
+            {{c.phone}}
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn btn-danger" (click)="deleteContact(c._id)">Delete</button>
+            <br><br>
+        </div>
+        <br>
+    </div>
+</div>
