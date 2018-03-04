@@ -1,6 +1,9 @@
 # MEAN-Stack-ContactList
 ContactList Application using MEAN (MongoDB, ExpressJS, AngularJS, NodeJS) 
 
+![alt text](https://github.com/Karthik-Chowdary/MEAN-Stack-ContactList/blob/master/contactlist/Screen%20Shot%202018-03-04%20at%2011.55.25%20AM.png)
+
+
 <h2>Install Homebrew</h2>
 
 <li><strong>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</strong>
