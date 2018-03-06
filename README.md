@@ -34,5 +34,12 @@ ContactList Application using MEAN (MongoDB, ExpressJS, AngularJS, NodeJS)
 <li>Install mongoose, cors, body-parser<strong>  npm install mongoose cors body-parser --save</strong>
 <li>Install nodemon for continuous sync<strong>  sudo npm install -g --force nodemon</strong>
 <li>Start the server<strong>  nodemon</strong>
+  
+<h2>Install Angular</h2>
+
+<li>Install Angular CLI<strong>  sudo npm install -g @angular/cli</strong>
+<li>Create new Angular App<strong>  ng new contactlist</strong>
+<li>Initialize app with required fields after going into the created app : cd contactlist and then<strong>  npm init</strong>
+<li>Start the server which should start at http://localhost:4200<strong>  ng serve</strong>
 
 <h4> You are good to go
